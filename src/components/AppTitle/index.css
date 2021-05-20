@@ -1,0 +1,35 @@
+*{
+    font-family: Arial,Helvetica,sans-serif;
+}
+.ant-page-header {
+    padding : 16px 10px !important;
+}
+
+h1.ant-typography{
+    font-size: 24px !important;
+    font-weight: 600;
+}
+
+.ant-page-header-heading-title {
+    color: var(--text-black);
+}
+
+.ant-page-header-heading-sub-title {
+    color : #000000D9 !important;
+}
+.ant-page-header-heading-left {
+    display: flex;
+    align-items: flex-start !important;
+    flex-flow:  column nowrap;
+}
+
+
+.app-header {
+    width: fit-content;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}

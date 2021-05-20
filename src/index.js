@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import 'antd/dist/antd.css';
 import reportWebVitals from './reportWebVitals';
+
+import {Provider} from "react-redux";
+import history from "./store/history";
+import store from "./store";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <Provider store = {store}>
+     <App history = {history} />
+  </Provider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,19 @@
+.ant-btn-primary {
+    /* background: var(--cyan-7) !important; */
+}
+
+.ant-row { 
+    padding : 0 20px 0 20px;
+    margin : 0px;
+}
+
+.ant-col {
+    padding : 0 !important;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
